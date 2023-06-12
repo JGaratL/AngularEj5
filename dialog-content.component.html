@@ -1,0 +1,28 @@
+<div class="example-container">
+    <mat-form-field>
+      <mat-label>Introduzca su nombre</mat-label>
+      <input matInput placeholder="Jose María" [(ngModel)]="name">
+    </mat-form-field>
+  </div>
+  <div class="example-container">
+    <mat-form-field>
+      <mat-label>Introduzca su apellido</mat-label>
+      <input matInput placeholder="Martinez" [(ngModel)]="surname">
+    </mat-form-field>
+  </div>
+  <div class="example-container">
+    <mat-form-field>
+      <mat-label>Introduzca su email</mat-label>
+      <input matInput placeholder="pat@example.com" [(ngModel)]="email" >
+    </mat-form-field>
+  </div>
+  
+<div class="example-button-row">
+  
+    <button mat-dialog-close mat-raised-button color="accent">Enviar</button>
+    <button mat-dialog-close mat-raised-button color="warm">Cancelar</button>
+
+</div>
+
+
+
